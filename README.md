@@ -22,7 +22,11 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - Put code together to make a larger piece
   - ### React is declarative
     - Opposite is imperative
-    - Declarative is "what should be done?", just tell me what to do, and I'll do it
-    - Imperative is "how it should be done?", describe to me every step on how to do something, and I'll do it
+    - **Declarative** is "what should be done?", just tell me what to do, and I'll do it
+    - **Imperative** is "how it should be done?", describe to me every step on how to do something, and I'll do it
+- ## JSX - JavaScript XML
+  - A flavor of JavaScript that looks a lot like HTML
+  - It essentially is syntactic sugar for writing a JavaScript object that includes all of those properties
+  - You can only render one single parent element in React
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=799)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2261)
