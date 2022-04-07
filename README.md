@@ -29,4 +29,4 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - It essentially is syntactic sugar for writing a JavaScript object that includes all of those properties
   - You can only render one single parent element in React
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2261)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2421)
