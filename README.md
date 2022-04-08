@@ -28,5 +28,9 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - A flavor of JavaScript that looks a lot like HTML
   - It essentially is syntactic sugar for writing a JavaScript object that includes all of those properties
   - You can only render one single parent element in React
+- ## Goodbye CDN
+  - We've been using what's called a **CDN**, content delivery network, which is the easier way to start using React.
+  - The CDNS we've been using are the script tags that we copied
+  - We will now do it the more "formal" way
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2421)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2677)
