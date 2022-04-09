@@ -33,4 +33,4 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - The CDNS we've been using are the script tags that we copied
   - We will now do it the more "formal" way
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=2677)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3016)
