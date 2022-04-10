@@ -32,5 +32,6 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - We've been using what's called a **CDN**, content delivery network, which is the easier way to start using React.
   - The CDNS we've been using are the script tags that we copied
   - We will now do it the more "formal" way
+  - Creating local variables such as `const page` is not very effective, we will use custom components later to replace this.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3016)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3279)
