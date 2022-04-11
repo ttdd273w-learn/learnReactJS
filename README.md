@@ -33,5 +33,16 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - The CDNS we've been using are the script tags that we copied
   - We will now do it the more "formal" way
   - Creating local variables such as `const page` is not very effective, we will use custom components later to replace this.
+- ## Pop quiz #1
+  1. Why do we need the import statement?
+     - We need it because we're not using babel, and react defines JSX.
+  2. If I were to console.log(page), what would show up?
+     - Nothing, the console will display a javascript object. React elements that describe what React should eventually add to the real DOM for us.
+  3. What's wrong with `const page = ( <h1></h1> <p></p> )`
+     - It's not wrapped in a single element, you can use fragments, `<></>`.
+  4. What's declarative vs imperative?
+     - Declarative is you tell them to do something, they will do, while imperative is you have to tell them how to do something.
+  5. What does it mean to be "composable"?
+     - Composable means you can build a bigger thing from smaller components.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3279)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3596)
