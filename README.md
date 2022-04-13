@@ -14,7 +14,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - Think of it under the hood as getting the element, and then writing something similar to append to the element
   - We can also use the `Live Server` extension to host and run a website on locally, rather than typing the python command
 
-# Project 1: Making a Static Webpage
+# Introduction
 
 - ## Why React?
   - ### React allows us to write composable code
@@ -44,5 +44,13 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
      - Declarative is you tell them to do something, they will do, while imperative is you have to tell them how to do something.
   5. What does it mean to be "composable"?
      - Composable means you can build a bigger thing from smaller components.
+- ## Components (Composability)
+  - The whole point is creating custom components that's reusable
+  - Function that creates elements over and over again
+  - We use pascal case instead of camelCase for component names
+    - Camel case always starts out lowercase with each word delimited by a capital letter (like personOne, textUtil, thingsToDo)
+    - Pascal case is similar to camel case, but the first letter is always capitalized (like PersonOne, TextUtil, ThingsToDo)
+    - Snake case means that we delimit words with an underscore (like person_one, text_util, things_to_do)
+  - And we wrap the function in angle brackets: `<Function />`
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=3596)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4051)
