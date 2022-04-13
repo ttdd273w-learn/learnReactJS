@@ -52,5 +52,13 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - Pascal case is similar to camel case, but the first letter is always capitalized (like PersonOne, TextUtil, ThingsToDo)
     - Snake case means that we delimit words with an underscore (like person_one, text_util, things_to_do)
   - And we wrap the function in angle brackets: `<Function />`
+- ## Custom Components Quiz
+  1. What is a react component?
+     - A react component is a function that returns some JSX that can be inserted into HTML.
+     - A function that returns React elements.
+  2. What's wrong with the code?
+     - The function should be PascalCase, and it needs to begin with captial letter.
+  3. What's wrong with the code?
+     - You need to call with `<Header />` to get the component
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4051)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4423)
