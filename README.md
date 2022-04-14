@@ -60,5 +60,8 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
      - The function should be PascalCase, and it needs to begin with captial letter.
   3. What's wrong with the code?
      - You need to call with `<Header />` to get the component
+- ## Parent and Child Components
+  - The parent component is the main component that gets rendered
+  - The children components are components that the parent component calls
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4423)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4724)
