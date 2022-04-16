@@ -1,10 +1,17 @@
 // part 1, separate out the header component
+
 function Header() {
   return (
     <div>
       <header>
         <nav>
-          <img src="./react-logo.png" width="40px" />
+          <img src="./react-logo.png" width="70px" />
+          {/* adding a navigation bar under it, we will also use flexbox to align it  */}
+          <ul className="nav-items">
+            <li>About Me</li>
+            <li>Contacts</li>
+            <li>Something</li>
+          </ul>
         </nav>
       </header>
     </div>

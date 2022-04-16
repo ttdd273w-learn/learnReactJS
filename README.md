@@ -63,5 +63,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 - ## Parent and Child Components
   - The parent component is the main component that gets rendered
   - The children components are components that the parent component calls
+- ## Styling React Components
+  - Use `className=""`, which is very similar to HTML, which uses `class=""`
 
 Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4724)
