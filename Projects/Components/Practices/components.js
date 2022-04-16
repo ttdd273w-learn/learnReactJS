@@ -1,11 +1,15 @@
-// part 1, separate out the header component
+// factor out the image element
+function Image() {
+  return <img className="nav-logo" src="./react-logo.png" />;
+}
 
+// part 1, separate out the header component
 function Header() {
   return (
     <div>
       <header>
-        <nav>
-          <img src="./react-logo.png" width="70px" />
+        <nav className="nav">
+          <Image />
           {/* adding a navigation bar under it, we will also use flexbox to align it  */}
           <ul className="nav-items">
             <li>About Me</li>

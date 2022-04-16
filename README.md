@@ -65,5 +65,14 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - The children components are components that the parent component calls
 - ## Styling React Components
   - Use `className=""`, which is very similar to HTML, which uses `class=""`
+- ## Organizing Code in React
+  - An important way to organize code in React is to separate them out into different folders, etc.
+  - General principle:
+    - Name the file with PascalCase, similar to the name of the function that its exporting
+    - Export the function with `export default function`, depending on the use case
+    - Import with `import FunctionName from "./FunctionName"`, you don't neeed the `js` extension since it is the default extension
+    - The `./` is a way to indicate you're referring to a file that's in your project, not a dependency
+    - Another convention is also to call `Page` the `App` component, or the main component
+    - Doesn't exactly work with imports since we don't have the correct dependencies and we're using babel
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=4724)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=5588)
