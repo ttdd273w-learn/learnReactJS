@@ -74,5 +74,14 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - The `./` is a way to indicate you're referring to a file that's in your project, not a dependency
     - Another convention is also to call `Page` the `App` component, or the main component
     - Doesn't exactly work with imports since we don't have the correct dependencies and we're using babel
+  - ## Create App
+    - In browser babel transformer is not a good long term solution
+      - It is necessary because the browser cannot interpret JSX
+    - Normally, you need a whole bundler system called `Webpack`
+      - You would then configure it so that it compiles your React code into something the browser can understand
+    - However, webpack is normally very difficult to pickup, so the React team created a package called `Create-React-App` to hide those abstraction details
+      - To use this, you need Node and npm
+      - nvm is another module that makes it really easy to change node versions
+    - Create-react-app generates a boiler plate, but you can delete everything in it and start from scratch to get it up and running, but you don't need `index.html` file, since it's in the public folder
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=5588)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=6091)
