@@ -83,5 +83,10 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
       - To use this, you need Node and npm
       - nvm is another module that makes it really easy to change node versions
     - Create-react-app generates a boiler plate, but you can delete everything in it and start from scratch to get it up and running, but you don't need `index.html` file, since it's in the public folder
+    - Generally recommended to load css directly in the source folder, and then get it with an import
+      - Behind the scenes, React is using something called styleloader that does this
+    - For images, put them all in a folder called images and also import them
+      - Set `src` to the imported name
+    -
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=6091)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=6626)
