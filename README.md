@@ -87,6 +87,10 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
       - Behind the scenes, React is using something called styleloader that does this
     - For images, put them all in a folder called images and also import them
       - Set `src` to the imported name
-    -
+
+# Project 1
+
+- ## Setup
+  - Create a components folder, and we will remove most of the boilerplate code from create-react-app
 
 Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=6626)
