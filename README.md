@@ -93,4 +93,4 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 - ## Setup
   - Create a components folder, and we will remove most of the boilerplate code from create-react-app
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=6819)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=8070)
