@@ -99,4 +99,12 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - Specify things in JSX with `classNames`
       - Generally use names with two dashes, e.g. `main--list`
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=8848)
+# Project 2
+
+- ## Setup
+  - In project 1, everything is hardcoded, and not data driven, and this project will tackle that with props
+  - Clone of airbnb experiences page, the list on the page are from the database
+  - Remember that CSS elements have a model organized like the following
+    - ![CSS Model](/assets/css_model.png "CSS Model")
+
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=9305)
