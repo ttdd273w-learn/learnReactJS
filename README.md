@@ -92,5 +92,11 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 
 - ## Setup
   - Create a components folder, and we will remove most of the boilerplate code from create-react-app
+  - Not a whole lot of new materials, definitely keep in mind of the parent child structure
+    - Export default for react components
+  - Some characteristics unique to this project
+    - To make an image into the background, use the `url()` tag in css
+    - Specify things in JSX with `classNames`
+      - Generally use names with two dashes, e.g. `main--list`
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=8070)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=8848)

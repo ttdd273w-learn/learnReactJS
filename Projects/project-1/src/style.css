@@ -34,6 +34,11 @@ main {
   /* margin-left: 2%; */
   padding: 57px 27px;
   color: #ffffff;
+  background: url(images/react-logo-large.jpg) no-repeat;
+  background-size: contain;
+  background-position: right 75%;
+  /* background-position-x: right;
+  background-position-y: 75%; */
 }
 
 .main--header {
@@ -43,4 +48,10 @@ main {
 
 .main--list > li {
   padding-block: 10px;
+}
+
+/* marker pseudo element */
+ul li::marker {
+  color: #61dafb;
+  font-size: 1.4em;
 }
