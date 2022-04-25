@@ -108,5 +108,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - ![CSS Model](/assets/css_model.png "CSS Model")
   - Hero component is a component that contains multiple images, texts, and links.
   - Want to give the font family to the entire body, so that it is spread throughout the website
+  - Project card component
+    - Need to build out a single instance of the component
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=9798)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=10241)
