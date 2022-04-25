@@ -106,5 +106,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - Clone of airbnb experiences page, the list on the page are from the database
   - Remember that CSS elements have a model organized like the following
     - ![CSS Model](/assets/css_model.png "CSS Model")
+  - Hero component is a component that contains multiple images, texts, and links.
+  - Want to give the font family to the entire body, so that it is spread throughout the website
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=9305)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=9798)
