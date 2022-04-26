@@ -110,5 +110,9 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - Want to give the font family to the entire body, so that it is spread throughout the website
   - Project card component
     - Need to build out a single instance of the component
+    - Problem is that it is not reusable at all, and instead, it should be data driven
+    - In React, this is where `props` come into play
+  - To type a variable in JSX, use the curly braces `{}`
+    - In fact, anything that's inside the curly braces can be run as JavaScript code
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=10241)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=11155)
