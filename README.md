@@ -114,5 +114,8 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - In React, this is where `props` come into play
   - To type a variable in JSX, use the curly braces `{}`
     - In fact, anything that's inside the curly braces can be run as JavaScript code
+  - Duplicating a certain component will always cause it to have the same data
+    - To do this, we can add whatever property we want into React
+    - In the function parenthesis, just add the word `props` inside it, it can really be named anything, but it passes in a dictionary with the attribute name and the corresponding value that's passed in
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=11155)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=11923)
