@@ -102,6 +102,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 # Project 2
 
 - ## Setup
+
   - In project 1, everything is hardcoded, and not data driven, and this project will tackle that with props
   - Clone of airbnb experiences page, the list on the page are from the database
   - Remember that CSS elements have a model organized like the following
@@ -117,5 +118,27 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - Duplicating a certain component will always cause it to have the same data
     - To do this, we can add whatever property we want into React
     - In the function parenthesis, just add the word `props` inside it, it can really be named anything, but it passes in a dictionary with the attribute name and the corresponding value that's passed in
+  - Pop quiz:
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=11923)
+    1. What do props help us accomplish?
+       - They allow our components to be data driven, and we can pass in whatever we want into the component.
+    2. How do you pass in a prop into a component?
+       - Type the name of the prop and its corresponding value, such as `<Component attr=""/>`, and this is a dictionary, so call `props.attr` to access that element
+    3. Can I pass in a custom prop into a native DOM element? ex) `<div blahblah={true}/>`
+       - WRONG: I think you can since native DOM elements are just JavaScript objects
+       - RIGHT: No, you cannot, the JSX will be turned into real DOM elements, and real DOM elements will ony have the properties/attributes specified in the HTML specification.
+    4. How do I receive props in a component?
+
+       - The name of the parameter in the function header is the dictionary name, call `props.attr` to get the corresponding attribute.
+
+    5. What data type is `props` when the component receives it?
+       - WRONG: A dictionary or a map
+       - RIGHT: An object!
+
+  - Object Destructuring:
+    - `const {img, name} = person`, will take the corresponding attributes of person and store them into those variables.
+    - Rename using colons: `const {img: image...}`
+    - You can therefore choose to destructure immediately:
+      - `function Header({img, name, ...})`
+
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=12428)
