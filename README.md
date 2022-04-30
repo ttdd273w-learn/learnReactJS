@@ -140,5 +140,9 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - Rename using colons: `const {img: image...}`
     - You can therefore choose to destructure immediately:
       - `function Header({img, name, ...})`
+  - Jokes Page
+    - <hr /> tag is the thematic break tag, puts a line in the page
+    - It is also an option to conditionally render
+    - `{props.setup && <h3>Setup: {props.setup}</h3>} `
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=12428)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=12974)
