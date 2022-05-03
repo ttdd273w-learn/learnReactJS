@@ -4,7 +4,13 @@ import Jokes from "./Components/Joke";
 export default function App() {
   return (
     <div>
-      <Jokes punchline="It's hard to explain puns to kleptomaniacs because they always take things literally." />
+      <Jokes
+        isPun={true}
+        upvotes={10}
+        comments={[{ author: "", body: "", title: "" }]}
+        // etc, we can really include anything in here
+        punchline="It's hard to explain puns to kleptomaniacs because they always take things literally."
+      />
       <Jokes
         setup="I got my daughter a fridge for her birthday."
         punchline="I can't wait for her face to light up when she opens it."

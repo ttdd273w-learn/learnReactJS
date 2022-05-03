@@ -144,5 +144,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - <hr /> tag is the thematic break tag, puts a line in the page
     - It is also an option to conditionally render
     - `{props.setup && <h3>Setup: {props.setup}</h3>} `
+    - In React, we can also pass in nonstring props into the components, or any JavaScript types as props
+    - To do this, we just surround the types in `{}`
 
 Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=12974)
