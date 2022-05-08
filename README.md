@@ -146,5 +146,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - `{props.setup && <h3>Setup: {props.setup}</h3>} `
     - In React, we can also pass in nonstring props into the components, or any JavaScript types as props
     - To do this, we just surround the types in `{}`
+    - You can also pass in additional variables within a string like so:
+      - `` {`../images/${props.img}`} ``
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=12974)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=13628)
