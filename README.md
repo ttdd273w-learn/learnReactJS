@@ -149,5 +149,6 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - You can also pass in additional variables within a string like so:
       - `` {`../images/${props.img}`} ``
     - `Array.map()` method can be used to expand the array elements
+    - React JSX can also render the entire array on the page, with `{}` as usual
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=14103)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=14674)

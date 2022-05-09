@@ -1,10 +1,20 @@
 import React from "react";
 import Jokes from "./Components/Joke";
+import jokesData from "./jokesData";
 
 export default function App() {
-  return (
-    <div>
-      <Jokes
+  const jokesElements = jokesData.map((joke) => {
+    return <Jokes setup={joke.setup} punchline={joke.punchline} />;
+  });
+  return <div>{jokesElements}</div>;
+}
+
+// const colors = ["Red", "Orange", "Yellow"].map((color) => {
+//   return `<h3>${color}</h3>`;
+// });
+// return <div>{colors}</div>;
+
+/* <Jokes
         isPun={true}
         upvotes={10}
         comments={[{ author: "", body: "", title: "" }]}
@@ -30,7 +40,4 @@ export default function App() {
       <Jokes
         setup="What's the best thing about Switzerland?"
         punchline="I don't know, but the flag is a big plus."
-      />
-    </div>
-  );
-}
+      /> */
