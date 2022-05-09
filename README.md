@@ -148,5 +148,6 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - To do this, we just surround the types in `{}`
     - You can also pass in additional variables within a string like so:
       - `` {`../images/${props.img}`} ``
+    - `Array.map()` method can be used to expand the array elements
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=13628)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=14103)
