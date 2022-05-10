@@ -150,5 +150,13 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
       - `` {`../images/${props.img}`} ``
     - `Array.map()` method can be used to expand the array elements
     - React JSX can also render the entire array on the page, with `{}` as usual
+  - Map array quiz
+    1. What does the `.map()` array method do?
+    - It loops through the array and applies the function you pass in on each element of the array
+    3. What do we usually use the `.map()` method for in React?
+       - It is usually used for creating components out of an array of data elements, which are usually objects
+    4. Why is using the `.map()` better than just creating the components manually by typing them out?
+       - It is better because you are making your website data driven, and reduces code duplicity and makes it flexible for changes, and makes our code more "self-sustaining," not requiring additional changes whenever the data changes.
+  - For the project, we will need to move the images folder into the public folder for images to load. In reality, We usually won't have a `data.js` file, and instead, we will load the data in from online resources.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=14674)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=15388)
