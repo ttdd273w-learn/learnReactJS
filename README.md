@@ -160,5 +160,10 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - For the project, we will need to move the images folder into the public folder for images to load. In reality, We usually won't have a `data.js` file, and instead, we will load the data in from online resources.
   - You will see a key prop warning anytime you use, and the key is just something unique about the item, `key` propery.
     - You can use certain properties, such as in this case, the rating, etc. However, this is not unique for every item. Therefore, you should use something similar to an ID, which should normally come with a database.
+  - Our card component is getting pretty long with all the properties that we're passing in. One way to avoid this is just passing in the entire object
+  - Another way to make it simpler is with the object spread syntax
+    - `{...item}` will spread all components of item and create a separate prop for each one of them
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=16088)
+# Project 3
+
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=16901)
