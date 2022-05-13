@@ -158,5 +158,7 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     4. Why is using the `.map()` better than just creating the components manually by typing them out?
        - It is better because you are making your website data driven, and reduces code duplicity and makes it flexible for changes, and makes our code more "self-sustaining," not requiring additional changes whenever the data changes.
   - For the project, we will need to move the images folder into the public folder for images to load. In reality, We usually won't have a `data.js` file, and instead, we will load the data in from online resources.
+  - You will see a key prop warning anytime you use, and the key is just something unique about the item, `key` propery.
+    - You can use certain properties, such as in this case, the rating, etc. However, this is not unique for every item. Therefore, you should use something similar to an ID, which should normally come with a database.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=15388)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=16088)
