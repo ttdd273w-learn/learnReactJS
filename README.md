@@ -166,4 +166,15 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 
 # Project 3
 
+- This is where we will create interactive web apps using React, until now, we've been making static websites, and reusable components.
+- Static web pages
+  - Read only, no changes to data
+  - Examples: blogs, news sites, recipes
+- Dynamic web apps
+  - Read-write: ability to change data
+  - Highly interactive
+  - Displays _your_ data
+    - Examples: Bank website, Airbnb
+- In this project, we will create a meme generator that takes the top 100 memes from a website and allows the user to generate a random new meme
+
 Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=16901)
