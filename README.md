@@ -176,5 +176,6 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - Displays _your_ data
     - Examples: Bank website, Airbnb
 - In this project, we will create a meme generator that takes the top 100 memes from a website and allows the user to generate a random new meme
+- Push something to the right in CSS by giving it a margin of auto
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=16901)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=17834)
