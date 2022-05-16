@@ -177,5 +177,15 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - Examples: Bank website, Airbnb
 - In this project, we will create a meme generator that takes the top 100 memes from a website and allows the user to generate a random new meme
 - Push something to the right in CSS by giving it a margin of auto
+- In order for the user to interact with the page, we have to be listening for different events that could occur, and react to them
+  - As soon as the page loads, it will immediately make a call to an API called ImageFlip, which will return to us an array of 100 meme images, and clicking the button "Get a new meme image" will simply random pick one out of those 100 meme images
+- We will start with event listeners
+  - In JavaScript, you can use: `.addEventListener("click", function() {})`
+  - In HTML, you can use: `onclick="myFunction()"`
+  - In React, we need to use `onClick={function() {}}`, note the capital C, you will have a JavaScript object with that exact property
+    - CamelCase is the standard, such as `onMouseEnter`, `onMouseOver`
+    - You don't want to include `()` in the property, because that will immediately run the function
+    - List of React [eventListeners](https://reactjs.org/docs/events.html#mouse-events)
+    - Convention is to add the word handle before the event attribute
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=17834)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=18275)
