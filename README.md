@@ -187,5 +187,25 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
     - You don't want to include `()` in the property, because that will immediately run the function
     - List of React [eventListeners](https://reactjs.org/docs/events.html#mouse-events)
     - Convention is to add the word handle before the event attribute
+- Rendering items
+  - The other problem that you run into when using React is that things don't get re-rendered when elements in a component change
+  - The rendering only takes place once
+  - In order to do this, we need to access something called React state, which allows us to hook into the component and make it so whenever we update the state, React will update the page as well
+- ## State vs. Props
+  - `Props` refers to the properties being passed into a component in order for it to work correctly, similar to how a function receives parameters: "from above". A component receiving props is not allowed to modify those props, i.e. they are immutable
+  - `State` refers to values that are managed by the component, similar to variables declared inside a function. Any time you have changing values that should be saved/displayed, you will likely be using state.
+- ## Quiz
+  1. How would you describe the concept of "state"?
+     - The concept of "state" is something that's managed by the component or the function, it is a mutable part of the function that will change on its own.
+     - A way for React to remember some saved values.
+  2. When would you want to use props instead of state?
+     - You would want to use props instead of state when you are expecting something from the user and want to display that information.
+     - Props are like parameters for the function.
+  3. When would you want to use state instead of props?
+     - You would want to use state instead of props when you want to update something on the page for the user.
+  - State is kind of like local variables declared inside a function.
+  4.  What does "immutable" mean? Are props immutable? Is state immutable?
+      - Immutable means that it can't be changed, and props are immutable while state is mutable.
+-
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=18275)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=19936)
