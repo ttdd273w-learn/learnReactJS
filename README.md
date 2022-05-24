@@ -222,4 +222,4 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   3. When would you want to pass the second option (from answer above) to the state setter function?
   - You want to use a callback function when your new state depends on the value of the old state.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=20473)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=21415)
