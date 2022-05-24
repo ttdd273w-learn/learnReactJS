@@ -206,6 +206,10 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - State is kind of like local variables declared inside a function.
   4.  What does "immutable" mean? Are props immutable? Is state immutable?
       - Immutable means that it can't be changed, and props are immutable while state is mutable.
--
+- React also has a method called `React.useState()`, which is one of the many hooks that React has
+  - `React.useState()` actually returns an array `[arg, function()]`
+  - This implies we can destructure the result as such:
+    - `const [result, function()] = React.useState(arg)`
+    - `function(arg)` is generally a function used to set the new React state to what `arg` is
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=19936)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=20473)
