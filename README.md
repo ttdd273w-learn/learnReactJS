@@ -211,5 +211,15 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - This implies we can destructure the result as such:
     - `const [result, function()] = React.useState(arg)`
     - `function(arg)` is generally a function used to set the new React state to what `arg` is
+  - One way to use the function that the hook create is to pass in the old state, but you can also do it with a callback function
+    - The callback function, which is a function passed as an argument to the hook, will take in the old value of the state, so you can use it in the function body, and you have to include a return statement to have it display
+    - This is the best practice in React, and you should always pass in a function to set count
+- ## Quiz
+  1. You have 2 options for what you can pass in to a state setter function (e.g. 'setCount'). What are they?
+  - You can pass in a value to a state setter function or you can pass in a callback function.
+  2. When would you want to pass the first option (from answer above) to the state setter function?
+  - You want to pass a value when it is more static, or it doesn't depend on the value of the old state.
+  3. When would you want to pass the second option (from answer above) to the state setter function?
+  - You want to use a callback function when your new state depends on the value of the old state.
 
 Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=20473)
