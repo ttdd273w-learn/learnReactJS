@@ -221,5 +221,6 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - You want to pass a value when it is more static, or it doesn't depend on the value of the old state.
   3. When would you want to pass the second option (from answer above) to the state setter function?
   - You want to use a callback function when your new state depends on the value of the old state.
+- In general, you should not directly modify objects that keep track of the state
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=21415)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=23148)
