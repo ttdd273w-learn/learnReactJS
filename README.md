@@ -221,6 +221,12 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - You want to pass a value when it is more static, or it doesn't depend on the value of the old state.
   3. When would you want to pass the second option (from answer above) to the state setter function?
   - You want to use a callback function when your new state depends on the value of the old state.
-- In general, you should not directly modify objects that keep track of the state
+- In general, you should not directly modify objects that keep track of the state, and use the state functions to edit them
+- Every time a component needs to be rerendered, the component itself will be re-rendered, as well as any child components
+  - To pass in event listeners on non-native DOM elements, you normally will call it `handleClick` to indicate that
+- Passing data to components
+  - You cannot pass data between sibling components, only the parent has those information
+  - One workaround is to raise the information necessary to the parent component
+  - This can be very tedious, so React offer workarounds called context, and third party state management systems called Redux
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=23148)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=24667)
