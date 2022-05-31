@@ -228,5 +228,8 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - You cannot pass data between sibling components, only the parent has those information
   - One workaround is to raise the information necessary to the parent component
   - This can be very tedious, so React offer workarounds called context, and third party state management systems called Redux
+- Dynamic styles
+  - Just like how you can add styles inside of HTML, you can also add styles inside of the ReactJSX, with `{{}}`, the outer set represents entering JavaScript inside of JSX, and the inner set represents the JavaScript object
+  - The attributes must also be camelCase
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=24667)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=25484)
