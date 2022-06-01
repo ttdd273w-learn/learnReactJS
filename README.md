@@ -231,5 +231,8 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 - Dynamic styles
   - Just like how you can add styles inside of HTML, you can also add styles inside of the ReactJSX, with `{{}}`, the outer set represents entering JavaScript inside of JSX, and the inner set represents the JavaScript object
   - The attributes must also be camelCase
+- If you find yourself initializing state with incoming props, there's probably a better way to do this in the parent component with unified state
+  - This is known as **dervied state**, and you probably don't need this, and it leads to multiple sources of truths
+  -
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=25484)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=26476)
