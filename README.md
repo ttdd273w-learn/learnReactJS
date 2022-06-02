@@ -235,4 +235,4 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - This is known as **dervied state**, and you probably don't need this, and it leads to multiple sources of truths
   -
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=26476)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=26930)
