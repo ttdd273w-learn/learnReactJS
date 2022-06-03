@@ -233,6 +233,26 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - The attributes must also be camelCase
 - If you find yourself initializing state with incoming props, there's probably a better way to do this in the parent component with unified state
   - This is known as **dervied state**, and you probably don't need this, and it leads to multiple sources of truths
-  -
+- ## Quiz
+  1. What is conditional rendering?
+     - When we want to only sometimes display something on the page based on a condition of some sort.
+  2. When would you use &&?
+  - When you want to either display something or NOT display it.
+  3. When would you use a ternary?
+     - When you need to decide which thing among 2 options to display
+  4. What if you need to decide between more than 2 options on what to display?
+     - Use an `if...else if...else` condition or `switch` statement
+- ## Forms
+  - In the old days, you would create a form in the HTML and give it an action, usually a `php` file that processes the form.
+    - A method of `POST`
+    - The `php` file will process that data
+  - In JavaScript, it is a little different
+    - You have a selector that picks the form
+    - Add a `submit` event listener
+    - The function that runs whenever the form is submitted would gather all the values together and submit it to an API
+  - The most important thing to know if when you submit the data, it would gather all the data immediately and submit it immediately
+- In React, instead of waiting for the form to be submitted
+  - Every tiny change changes the state, and React is watching each change that happens
+  - When the user is done, you simply submit what you already have
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=26930)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=28398)
