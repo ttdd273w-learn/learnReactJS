@@ -259,5 +259,34 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 - Controlled components
   - The state figure in your component should be your single source of truth
   - This means for the forms, we need to add a `value` attribute to the DOM element
+- `input` vs `textarea`
+  - `input` is a self closing tag in HTMl, whereas `textarea` is not
+  - Whatever you put in the two tags is the value of the tag
+  - However, in React, they've made the textarea DOM element a self closing tag, and we need to add a `value` attribute to tag
+- Checkboxes
+  - It is not a DOM element by itself
+  - However, in HTML, it is an HTML element `<input type="checkbox"/>`
+  - They are fundamentally different because they only hold boolean values
+  - In HTML, there is a `checked` property that tells you the value of the checkbox
+  - To label a checkbox, you should use `htmlFor`, in plain HTML, it is `for`, but `htmlFor` is the underlying JavaScript attribute, and it points the `id` of the corresponding DOM element
+- Radio buttons are a mixture of checkboxes and text input
+  - You need to be careful with the `checked` attribute, because it needs to be a boolean value, so you end up needing to use a statement such as `formData.employment === "unemployment"`
+- Select boxes
+- Submitting the form
+  - In HTML, you can use something such as `<input type="submit" value="Send it in" />`
+  - In JSX, the default type of the element `<button>` is already a submit button, so you can use that
+  - In the old days, you might specify in the form, the method type, and action is some php file
+  - However, now you can just use a `onSubmit` event handler
+- # Quiz
+  1. In vanilla JS app, at what point in form submission do you gather all the data from filled-out form?
+     - Right before the form is submitted
+  2. When is it submitted in React?
+     - As the form is being filled out. The data is all held in local state
+  3. Which attributes in the form should match the property name in formData?
+     - The `name` property
+  4. What's different about saving the data from a checkbox element vs other elements?
+     - You use a `checked` property to determine what should be saved
+  5. How do you watch for a form submit? How can you trigger a form submit?
+     - `onSubmit` handler on the `form` element. Can be triggered with a click.
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=29512)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=31139)
