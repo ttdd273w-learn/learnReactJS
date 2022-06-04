@@ -254,5 +254,10 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
 - In React, instead of waiting for the form to be submitted
   - Every tiny change changes the state, and React is watching each change that happens
   - When the user is done, you simply submit what you already have
+- The `onChange` attribute returns an event, which is called a `SyntheticBaseEvent`, and includes various properties
+  - `event.target` will return the DOM element
+- Controlled components
+  - The state figure in your component should be your single source of truth
+  - This means for the forms, we need to add a `value` attribute to the DOM element
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=28398)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=29512)
