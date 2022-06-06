@@ -288,5 +288,30 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
      - You use a `checked` property to determine what should be saved
   5. How do you watch for a form submit? How can you trigger a form submit?
      - `onSubmit` handler on the `form` element. Can be triggered with a click.
+- # Making API Calls
+  - You often need to interact with something outside of your application.
+    - You are usually requesting inforamtion from an API
+      - When you request information, usually, you want to somehow display that inforamtion
+    - Or submitting information to an API
+  - Two general steps:
+    - Get the data, using (fetch) or another tool like AXIOS
+    - Take that data and save it to state
+  - When you call `fetch(URL)`, it returns a promise, and you need to resolve it with `.then(anonymous function)`
+  - If you just use a normal `fetch` and use the `setState` method to set it to the data you get back, then you will get an infinite loop of rendering, because `fetch` lives on the top level, and it re-renders the component. However, every time the comonent renders, it also calls `fetch` again, which causes the infinite loop
+  - This will lead into how we handle side effects
+- # Side Effects
+  - What are React's primary tasks?
+    - Working with the DOM/browser to render UI to the page
+    - Manage state for us between render cycles (i.e. state values are "remembered" from one render to another), and we use the `useState` hook to do this
+    - Keep the UI updated whenver state changes occur
+  - What can't React handle on its own?
+    - (Out)side effects
+      - localStorage
+      - API/database interactions
+      - Subscriptions, ex) web sockets
+      - Syncing 2 different internal states together
+  - `useEffect()` hook is like a tool or a blank canvas that allows us to interact outside of this ecosystem
+    - Allows us to sync React state with those outside systems
+    -
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=31139)
+Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=32458)
