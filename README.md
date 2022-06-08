@@ -312,6 +312,27 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
       - Syncing 2 different internal states together
   - `useEffect()` hook is like a tool or a blank canvas that allows us to interact outside of this ecosystem
     - Allows us to sync React state with those outside systems
-    -
+- `useEffect()`
+  - The first parameter is a required callback function
+    - Guaranteed to run only after the HTML elements have been rendered on the page
+  - The second parameter is optional, but you will almost always use it
+    - It is a dependencies array, it will contain values that determine how many times the callback function will run, so it doesn't run an infinite number of times
+    - Example: `[]` will only run it once
+    - Example: `[count]` will consider that variable as a dependcy, and it replaces it with the value that `count` currently holds. At the end, it makes the comparison `[0] compareTo [1]` to determine whether to run or not, it will not run if it is true
+- # Quiz
 
-Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=32458)
+  1. What is a "side effect" in React? What are some examples?
+     - Any code that affects an outside system
+     - Local storage, API, websockets, two states to keep in sync
+  2. What is NOT a "side effect"?
+     - Anything that React is in charge of
+     - Maintaining state, keeping the UI in sync with the data, render DOM elements
+  3. When does React run your useEffect function? When does it not?
+     - As soon as the component loads (first render)
+     - On every re-render of the component (assuming no dependencies array)
+     - WILL NOT run the effect when the values of the dependencies in the array stay the same between renders
+  4. How would you explain what the "dependencies array" is ?
+     - Second parameter to the useEffect function
+     - A way for React to know whether it should re-reun the effect function
+
+- Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=33711)
