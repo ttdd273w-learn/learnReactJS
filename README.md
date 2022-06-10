@@ -335,4 +335,13 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
      - Second parameter to the useEffect function
      - A way for React to know whether it should re-reun the effect function
 
-- Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=33711)
+- Always remember that the first parameter to `useEffect` is a callback function
+- You could've also changed the functions inside `useEffect` to be `async` and `await` functions. However, you will never want the callback function to be an `async` function. Instead, you can define the `async` function inside the callback function
+- Unmounted and mounted are really two terms to describe whether a DOM element is on the page or not
+- One important problem is called a **memory leak**, this happens when you're trying to update state on a DOM element that's no longer mounted on the page
+
+  - The solution is this is just called `useEffect cleanup`, which is where you return another function inside the callback function. This usually just undoes what you did before, ex: `removeEventListener`
+
+- Summary: `useEffect` takes a function as its parameter. If that function returns something, it needs to be a cleanup function. Otherwise, it should return nothing. If we make it an async function, it automatically returns a promise instead of a function or nothing. Therefore, it you want to use async operations inside of `useEffect`, you need to define the function separately inside of the callback function
+
+- Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=35495)
