@@ -343,5 +343,8 @@ Credits to [freeCodeAcademy](https://youtu.be/bMknfKXIFA8)
   - The solution is this is just called `useEffect cleanup`, which is where you return another function inside the callback function. This usually just undoes what you did before, ex: `removeEventListener`
 
 - Summary: `useEffect` takes a function as its parameter. If that function returns something, it needs to be a cleanup function. Otherwise, it should return nothing. If we make it an async function, it automatically returns a promise instead of a function or nothing. Therefore, it you want to use async operations inside of `useEffect`, you need to define the function separately inside of the callback function
+- Lazy state initialization
 
-- Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=35495)
+  - Is when you have an expensive intialization that you only want to be run once, you can provide a function instead of a value into `useState` for that to happen
+
+- Checkpoint: [YouTubeLink](https://youtu.be/bMknfKXIFA8?t=36238)
