@@ -18,7 +18,7 @@ export default function Form(props) {
   }
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <h2 className="label-wrapper">
         <label htmlFor="new-todo-input" className="label__lg">
           What needs to be done?
@@ -33,11 +33,7 @@ export default function Form(props) {
         value={name}
         onChange={handleChange}
       />
-      <button
-        onClick={handleSubmit}
-        type="submit"
-        className="btn btn__primary btn__lg"
-      >
+      <button type="submit" className="btn btn__primary btn__lg">
         Add
       </button>
     </form>
